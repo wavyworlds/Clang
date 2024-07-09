@@ -16,20 +16,20 @@
 //                                                                                                      //
 //══════════════════════════════════════════════════════════════════════════════════════════════════════//
 *
-   * @project_name : Suhail-Md
-   * @author : Suhail Tech Info
-   * @youtube : https://www.youtube.com/@SuhailTechInfo
-   * @description : Suhail-Md ,A Multi-functional whatsapp user bot.
+   * @project_name : Clang Bot
+   * @author : Clang
+   * @youtube : https://www.youtube.com/@wavyworldscrypto
+   * @description : Clang Bot ,A Multi-functional whatsapp user bot.
    * @version 1.2.8
 *
 * 
-   * Created By Suhail Tech Info.
-   * © 2024 Suhail-Md.
+   * Created By Zay.
+   * © 2024 Zay.
 */
 
 
 
-let Suhail_Md = "Suhail MD Whatsapp bot md"
+let Suhail_Md = "Clang Whatsapp bot md"
 
 const {updateProfilePicture,parsedJid  } = require("../lib")
 
