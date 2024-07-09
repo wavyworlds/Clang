@@ -17,10 +17,10 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
+global.github=process.env.GITHUB|| "https://github.com/wavyworlds/Clang";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaTrh5M4tRrs3QIUab46";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VaTrh5M4tRrs3QIUab46" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/wavyworlds/Clang/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.4",
-  caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 Powered by WAVY WORLDS 』```", //*『sᴜʙsᴄʀɪʙᴇ • CRYPTO WAVES』*\n youtube.com/@wavyworldscrypto"),
+  caption : process.env.CAPTION || "©ClangBot" , // ```『 Powered by WAVY WORLDS 』```", //*『sᴜʙsᴄʀɪʙᴇ • CRYPTO WAVES』*\n youtube.com/@wavyworldscrypto"),
  
   author : process.env.PACK_AUTHER|| "zay",
   packname: process.env.PACK_NAME || "clang",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "Zay Clang",
+  ownername:process.env.OWNER_NAME|| "Zay of Wavy Worlds",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -92,7 +92,7 @@ module.exports = {
 
 
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "WAVYWORLDS"  ).toUpperCase(),
 
 
 
